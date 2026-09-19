@@ -1,0 +1,191 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,19,25,30&height=200&section=header&text=Charlie%20Freeman&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%26%20Systems%20Engineer%20%7C%20Open%20Source%20Contributor%20%7C%20AI%20Systems&descAlignY=62&descAlign=50" width="100%"/>
+</div>
+
+<p align="center">
+  <a href="https://github.com/cf3901646">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=750&lines=Building+high-impact+developer+tools+%26+agentic+systems;49%2B+Open-Source+Pull+Requests+across+modern+ecosystems;Contributor+to+Pydantic%2C+Cookiecutter+%26+Turborepo;Passionate+about+Full-Stack%2C+AI+Workflows+%26+Developer+Experience" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source_PRs-49+-8B5CF6?style=flat-square&logo=git&logoColor=white" alt="Contributions"/></a>
+  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-10B981?style=flat-square&logo=googlechrome&logoColor=white" alt="App"/></a>
+  <a href="mailto:243496084+cf3901646@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat-square&color=0284C7" alt="Profile Views" />
+</p>
+
+---
+
+### 👨‍💻 About Me / 个人简介
+
+> **"Pragmatic engineering meets innovative AI orchestration."**
+
+I am a **Full-Stack & Systems Engineer** with a passion for building reliable developer tools, agentic AI systems, and responsive web applications. With an active track record in open source, I specialize in architecting typed Python runtimes, high-performance TypeScript/React user interfaces, and intelligent automation pipelines.
+
+- 🔭 **Current Focus**: Evaluating and benchmarking state-of-the-art AI coding assistants, streamlining monorepo developer experience, and exploring context compaction for autonomous agents.
+- 🌐 **Open Source Footprint**: Authored **49+ Pull Requests** across industry-standard libraries including **[Pydantic](https://github.com/pydantic/pydantic)**, **[Cookiecutter](https://github.com/cookiecutter/cookiecutter)**, **[Turborepo Remote Cache](https://github.com/ducktors/turborepo-remote-cache)**, and multiple AI agent runtimes.
+- 💡 **Engineering Philosophy**: Strict typing, zero-redundancy abstractions, robust error boundaries, and developer-first documentation.
+- 💬 **Ask Me About**: Agent orchestration swarms, Python AST / validation internals, full-stack architecture, and mobile hybrid deployment.
+
+---
+
+### 🚀 Flagship Projects / 核心代表作
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="28%">Project</th>
+      <th width="47%">Description & Architecture Highlights</th>
+      <th width="25%">Tech Stack & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b><a href="https://github.com/cf3901646/ai-coding-arena">AI Coding Arena</a></b>
+        <br/>
+        <sub>🎮 AI 编程助手横向评测展示站</sub>
+      </td>
+      <td>
+        An interactive side-by-side benchmarking platform comparing 4 frontier AI coding assistants (<b>Google Antigravity</b>, <b>OpenAI Codex</b>, <b>AWS Kiro</b>, <b>GitHub Copilot</b>) on identical scenarios and prompts with directly playable embedded solutions.
+      </td>
+      <td>
+        <code>JavaScript</code> <code>CSS3</code> <code>Benchmark</code>
+        <br/><br/>
+        <a href="https://cf3901646.github.io/ai-coding-arena/">🔗 <b>Live Demo 在线体验</b></a><br/>
+        <a href="https://github.com/cf3901646/ai-coding-arena">📦 <b>GitHub Repo</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/cf3901646/thermal-feels-like">Thermal Comfort Meter v2.0</a></b>
+        <br/>
+        <sub>🌡️ 智能双重体感温度计</sub>
+      </td>
+      <td>
+        A thermodynamic sensible temperature simulation application that models human biological perception across dual environments (indoor comfort vs outdoor solar radiation & wind chill), complete with Android native immersive system UI integration.
+      </td>
+      <td>
+        <code>JavaScript</code> <code>Capacitor</code> <code>Android</code>
+        <br/><br/>
+        <a href="https://github.com/cf3901646/thermal-feels-like">📦 <b>GitHub Repo</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/cf3901646/TalkNative">TalkNative (LingoFlow)</a></b>
+        <br/>
+        <sub>🎯 沉浸式地道英语口语听说私教</sub>
+      </td>
+      <td>
+        An immersive language training application tailored for acquiring colloquial English speech patterns, situational conversational instincts, and listening fluency with modern reactive UI.
+      </td>
+      <td>
+        <code>TypeScript</code> <code>React</code> <code>Vite</code>
+        <br/><br/>
+        <a href="https://github.com/cf3901646/TalkNative">📦 <b>GitHub Repo</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/cf3901646/AITextRestorer">AITextRestorer</a></b>
+        <br/>
+        <sub>🎨 AI 图像中文变形自适应修复工具</sub>
+      </td>
+      <td>
+        Desktop and Web utility engineered to detect, segment, and intelligently restore non-Latin (Chinese) text glyph distortions generated during AI image super-resolution and diffusion enhancements.
+      </td>
+      <td>
+        <code>Python</code> <code>OpenCV</code> <code>Full-Stack</code>
+        <br/><br/>
+        <a href="https://github.com/cf3901646/AITextRestorer">🐍 <b>Python Core</b></a><br/>
+        <a href="https://github.com/cf3901646/AITextRestorer-Web">🌐 <b>Web Frontend</b></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🤝 Open Source Track Record & Upstream Contributions / 开源贡献履历
+
+Demonstrated hands-on experience contributing features, bugfixes, and refactors to major upstream open source ecosystems:
+
+| Ecosystem / Repository | Key Contribution & Scope | Impact / Issue Addressed | Status |
+| :--- | :--- | :--- | :---: |
+| **[pydantic / pydantic](https://github.com/pydantic/pydantic)** | Dynamic Validator Annotation Enhancements | Allow `PydanticDescriptorProxy` in `create_model` `__validators__` annotations ([#13837](https://github.com/pydantic/pydantic/pull/13837)) | `In Review` |
+| **[cookiecutter / cookiecutter](https://github.com/cookiecutter/cookiecutter)** | Robust VCS Error Handling | Preserve existing project template directory when clone operations fail ([#2270](https://github.com/cookiecutter/cookiecutter/pull/2270)) | `In Review` |
+| **[ducktors / turborepo-remote-cache](https://github.com/ducktors/turborepo-remote-cache)** | High-Performance Remote Cache Architecture | Added separate read URL support for CDN offloading ([#778](https://github.com/ducktors/turborepo-remote-cache/pull/778)) & authored CDN documentation ([#874](https://github.com/ducktors/turborepo-remote-cache/pull/874)) | `Merged` 🎉 |
+| **[open-city-ai / haidian](https://github.com/open-city-ai/haidian)** | Spatial Governance & AI Simulation System | Engineered Report Card Simulator, street-level experiential views, and executable AI admission rules ([#4125](https://github.com/open-city-ai/haidian/pull/4125), [#3080](https://github.com/open-city-ai/haidian/pull/3080), [#2509](https://github.com/open-city-ai/haidian/pull/2509)) | `Merged` 🎉 |
+| **[smithd36 / biomata-engine](https://github.com/smithd36/biomata-engine)** | Autonomous NPC Simulation Architecture | Extracted unified `_do_register_agent` pipeline to eliminate redundant agent registration routines ([#19](https://github.com/smithd36/biomata-engine/pull/19)) | `Merged` 🎉 |
+| **[vm0-ai / okou](https://github.com/vm0-ai/okou)** | Reverse Proxy & Usage Billing Fix | Safe merge handling for WebSocket OpenAI Responses billing usage ([#14568](https://github.com/vm0-ai/okou/pull/14568)) | `Merged` 🎉 |
+| **[dimensionalOS / dimos](https://github.com/dimensionalOS/dimos)** | Physical Space Agent Operating System | Context window memory compaction when agent conversation history exceeds limits ([#3455](https://github.com/dimensionalOS/dimos/pull/3455)) | `In Review` |
+| **[tuchg / Lucarne](https://github.com/tuchg/Lucarne)** | Zero-Intrusion Mobile Agent Control Bridge | Added native runtime support for remote agent environments ([#48](https://github.com/tuchg/Lucarne/pull/48)) | `In Review` |
+
+---
+
+### 🛠️ Technical Arsenal & Skills / 技能清单
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,vite,tailwind,nodejs,fastapi,docker,git,githubactions&theme=dark" alt="Technical Arsenal" />
+  </a>
+</p>
+
+```yaml
+Languages:
+  - Python (Type-Hints, AsyncIO, AST, Pytest, Pydantic)
+  - TypeScript / JavaScript (ES2024+, Node.js, Bun)
+  - HTML5 / CSS3 / SCSS / Bash Scripting
+Frontend & Mobile:
+  - React 18/19, Next.js, Vite, Tailwind CSS, shadcn/ui
+  - Capacitor, Android Native Integration, Responsive Design
+Backend & Architecture:
+  - FastAPI, Node.js / Express, RESTful APIs, WebSocket
+  - Turborepo, Monorepo tooling, CDN Caching Architectures
+AI & Autonomous Systems:
+  - LLM Agent Orchestration, Multi-Agent Swarms, Prompt Engineering
+  - Coding Assistant Benchmarking, Context Window Compaction
+DevOps & Tooling:
+  - Git, GitHub Actions (CI/CD), Docker, Vercel, Linux
+```
+
+---
+
+### 📊 GitHub Activity & Real-Time Stats / 活跃度与数据看板
+
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cf3901646&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Charlie Freeman GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cf3901646&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cf3901646&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 🐍 Contribution Activity / 贡献贪吃蛇
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+### 📬 Connect & Collaborate / 联系方式
+
+- 🌐 **Flagship Benchmark**: [AI Coding Arena Online](https://cf3901646.github.io/ai-coding-arena/)
+- 💻 **GitHub**: [@cf3901646](https://github.com/cf3901646)
+- 📧 **Email**: [243496084+cf3901646@users.noreply.github.com](mailto:243496084+cf3901646@users.noreply.github.com)
+- 🤝 **Collaboration**: Always open to interesting collaborations on open-source tooling, agentic systems, and full-stack applications. Feel free to open an issue or connect!
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,19,25,30&height=100&section=footer" width="100%"/>
+</div>
