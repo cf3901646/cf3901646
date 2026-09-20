@@ -1,19 +1,20 @@
-<svg width="960" height="56" viewBox="0 0 960 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="64" viewBox="0 0 960 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Iridescent Ribbon Gradient -->
     <linearGradient id="footerLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.85"/>
       <stop offset="50%" stop-color="#ec4899" stop-opacity="0.9"/>
-      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.8"/>
-      <stop offset="80%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="65%" stop-color="#f59e0b" stop-opacity="0.85"/>
+      <stop offset="85%" stop-color="#10b981" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Subtle Glow Filter -->
     <filter id="footerSoftGlow" x="-10%" y="-30%" width="120%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="glow"/>
+      <feGaussianBlur stdDeviation="4" result="glow"/>
       <feMerge>
         <feMergeNode in="glow"/>
         <feMergeNode in="SourceGraphic"/>
@@ -27,22 +28,29 @@
     </linearGradient>
 
     <filter id="emblemShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
     </filter>
   </defs>
 
-  <!-- Ambient Light Streak -->
-  <line x1="80" y1="20" x2="880" y2="20" stroke="url(#footerLineGrad)" stroke-width="1.8" filter="url(#footerSoftGlow)"/>
+  <!-- Antigravity Subtle Horizon Beam -->
+  <line x1="60" y1="22" x2="900" y2="22" stroke="url(#footerLineGrad)" stroke-width="2" filter="url(#footerSoftGlow)" stroke-linecap="round"/>
 
-  <!-- Center Apple WWDC / Antigravity Sparkle Emblem -->
-  <g transform="translate(480, 20)" filter="url(#emblemShadow)">
-    <circle cx="0" cy="0" r="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-    <path d="M0 -7 Q0 0 -7 0 Q0 0 0 7 Q0 0 7 0 Q0 0 0 -7 Z" fill="url(#centerSparkleGrad)"/>
-    <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
+  <!-- Delicate Spatial Coordinate Crosshairs -->
+  <g stroke="#94a3b8" stroke-width="0.8" opacity="0.35">
+    <path d="M 64 22 L 72 22 M 68 18 L 68 26"/>
+    <path d="M 888 22 L 896 22 M 892 18 L 892 26"/>
   </g>
 
-  <!-- Micro Footer Text -->
-  <text x="480" y="44" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">
-    ENGINEERED WITH CURIOSITY &amp; PRECISION • BEIJING &amp; REMOTE WORLDWIDE
+  <!-- Center Apple WWDC / Antigravity Sparkle Emblem -->
+  <g transform="translate(480, 22)" filter="url(#emblemShadow)">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="-14" y="-14" width="28" height="28" rx="14" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.8"/>
+    <path d="M0 -8 Q0 0 -8 0 Q0 0 0 8 Q0 0 8 0 Q0 0 0 -8 Z" fill="url(#centerSparkleGrad)"/>
+    <circle cx="0" cy="0" r="1.8" fill="#ffffff"/>
+  </g>
+
+  <!-- Micro Footer Text (Airy & Crisp) -->
+  <text x="480" y="48" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="1">
+    ENGINEERED WITH RIGOR &amp; CURIOSITY • ZERO-GRAVITY ARCHITECTURE • BEIJING &amp; REMOTE
   </text>
 </svg>
