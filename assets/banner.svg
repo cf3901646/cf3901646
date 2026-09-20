@@ -1,120 +1,226 @@
-<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080b12"/>
-      <stop offset="50%" stop-color="#0e1320"/>
-      <stop offset="100%" stop-color="#060910"/>
-    </linearGradient>
-
-    <!-- Border Glow Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Multi-stop Apple WWDC / Antigravity Iridescent Gradient -->
+    <linearGradient id="iridescentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="35%" stop-color="#818cf8"/>
-      <stop offset="70%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+      <stop offset="25%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
 
-    <!-- Title Gradient -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#f1f5f9"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <!-- Subtle Iridescent Border Gradient -->
+    <linearGradient id="iridescentBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#ec4899" stop-opacity="0.45"/>
+      <stop offset="85%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.45"/>
     </linearGradient>
 
-    <!-- Neon Cyan Glow Filter -->
-    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Deep Titanium Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Apple Intelligence Sparkle Ribbon Gradient -->
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.92"/>
+    </linearGradient>
+
+    <!-- Ambient Light Blur Filters -->
+    <filter id="ambientBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="45" result="blur"/>
     </filter>
 
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.45"/>
+    <filter id="subtleBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+    </filter>
+
+    <!-- Soft Drop Shadow for Master Card -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.06"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#64748b" flood-opacity="0.04"/>
+    </filter>
+
+    <!-- Pill Shadow -->
+    <filter id="pillShadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.04"/>
+    </filter>
+
+    <!-- Grid Pattern for Antigravity Texture -->
+    <pattern id="lightDotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#94a3b8" fill-opacity="0.25"/>
     </pattern>
   </defs>
 
-  <!-- Base Card with Rounded Corners -->
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bgGrad)"/>
+  <!-- Ambient Ethereal Glow Orbs (Apple & Google Antigravity Zero-G Lighting) -->
+  <g filter="url(#ambientBlur)">
+    <!-- Top-Left Cyan/Sky -->
+    <ellipse cx="160" cy="70" rx="140" ry="90" fill="#38bdf8" fill-opacity="0.22"/>
+    <!-- Top-Right Violet/Purple -->
+    <ellipse cx="800" cy="80" rx="150" ry="100" fill="#c084fc" fill-opacity="0.20"/>
+    <!-- Center-Top Coral/Rose -->
+    <ellipse cx="480" cy="60" rx="180" ry="70" fill="#f43f5e" fill-opacity="0.12"/>
+    <!-- Bottom-Left Mint/Emerald -->
+    <ellipse cx="280" cy="260" rx="160" ry="80" fill="#34d399" fill-opacity="0.18"/>
+    <!-- Bottom-Right Amber/Gold -->
+    <ellipse cx="680" cy="250" rx="140" ry="75" fill="#fbbf24" fill-opacity="0.15"/>
+  </g>
+
+  <!-- Main Pristine Glass Canvas -->
+  <rect x="6" y="6" width="948" height="308" rx="24" fill="url(#cardBg)" filter="url(#cardShadow)"/>
   
-  <!-- Subtle Grid Overlay -->
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#grid)"/>
+  <!-- Subtle Architectural Dot Grid -->
+  <rect x="6" y="6" width="948" height="308" rx="24" fill="url(#lightDotGrid)"/>
 
-  <!-- Radial Glow Behind Title -->
-  <circle cx="450" cy="90" r="160" fill="#38bdf8" opacity="0.08" filter="url(#glowCyan)"/>
-  <circle cx="700" cy="140" r="120" fill="#818cf8" opacity="0.06"/>
+  <!-- Top Fluid Chromatic Horizon Ribbon -->
+  <path d="M 6 30 C 6 16.745 16.745 6 30 6 L 930 6 C 943.255 6 954 16.745 954 30 L 954 32 L 6 32 Z" fill="url(#iridescentBorder)" fill-opacity="0.15"/>
+  <line x1="30" y1="6" x2="930" y2="6" stroke="url(#iridescentBorder)" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Border Outline -->
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.75" opacity="0.85"/>
+  <!-- Card Hairline Iridescent Border -->
+  <rect x="6" y="6" width="948" height="308" rx="24" fill="none" stroke="url(#iridescentBorder)" stroke-width="1.2"/>
 
-  <!-- Terminal Window Controls (Top-Left) -->
-  <circle cx="32" cy="26" r="5" fill="#ef4444" opacity="0.9"/>
-  <circle cx="48" cy="26" r="5" fill="#f59e0b" opacity="0.9"/>
-  <circle cx="64" cy="26" r="5" fill="#10b981" opacity="0.9"/>
-  
-  <text x="86" y="30" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1">
-    cf3901646://portfolio-core
-  </text>
-
-  <!-- Status Pulse (Top-Right) -->
-  <circle cx="830" cy="26" r="4" fill="#22c55e">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="842" y="30" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">
-    ONLINE
-  </text>
-
-  <!-- Main Name Title -->
-  <text x="450" y="96" text-anchor="middle" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="2">
-    CHARLIE FREEMAN
-  </text>
-
-  <!-- Tagline / Code Line -->
-  <g transform="translate(450, 128)">
-    <text text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14.5" font-weight="500" letter-spacing="0.5">
-      <tspan fill="#38bdf8">&gt; const</tspan> developer = { role: <tspan fill="#a7f3d0">"Full-Stack &amp; Systems"</tspan>, focus: <tspan fill="#fbcfe8">["AI Agents", "DevTools"]</tspan> };
+  <!-- ================= TOP NAVIGATION BAR ================= -->
+  <!-- Left: Sparkle Logo + Identifier -->
+  <g transform="translate(36, 26)">
+    <!-- WWDC Iridescent Star / Sparkle Icon -->
+    <path d="M12 2 Q12 12 2 12 Q12 12 12 22 Q12 12 22 12 Q12 12 12 2 Z" fill="url(#sparkleGrad)"/>
+    <circle cx="12" cy="12" r="2.5" fill="#ffffff"/>
+    <text x="30" y="16" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8">
+      CHARLIE FREEMAN
+    </text>
+    <text x="162" y="16" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+      /
+    </text>
+    <text x="174" y="16" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.4">
+      PORTFOLIO &amp; LABS
     </text>
   </g>
 
-  <!-- Interactive / Highlight Badges Pill Row -->
-  <g transform="translate(80, 168)">
-    <!-- Pill 1: 51+ PRs -->
-    <g transform="translate(0, 0)">
-      <rect width="160" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="20" cy="17" r="4" fill="#818cf8"/>
-      <text x="32" y="22" fill="#e0e7ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        ⚡ 51+ Open PRs
-      </text>
-    </g>
+  <!-- Right: Glass Status Pill -->
+  <g transform="translate(686, 22)">
+    <rect width="238" height="28" rx="14" fill="#ffffff" fill-opacity="0.9" stroke="#e2e8f0" stroke-width="1" filter="url(#pillShadow)"/>
+    <circle cx="16" cy="14" r="4" fill="#10b981"/>
+    <circle cx="16" cy="14" r="7" fill="#10b981" fill-opacity="0.25"/>
+    <text x="28" y="18" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="0.3">
+      OPEN TO COLLABORATION
+    </text>
+  </g>
 
-    <!-- Pill 2: Haidian AI Urban -->
-    <g transform="translate(175, 0)">
-      <rect width="185" height="34" rx="17" fill="#0f291e" stroke="#10b981" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="20" cy="17" r="4" fill="#34d399"/>
-      <text x="32" y="22" fill="#d1fae5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        🚄 Jingzhang Rising
-      </text>
-    </g>
+  <!-- ================= HERO CORE CONTENT ================= -->
+  <!-- Monogram Watermark / Antigravity Ring in Background -->
+  <g transform="translate(480, 135)" opacity="0.04">
+    <circle cx="0" cy="0" r="110" stroke="#0f172a" stroke-width="2" stroke-dasharray="6 6"/>
+    <circle cx="0" cy="0" r="85" stroke="#0f172a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="60" stroke="#0f172a" stroke-width="1"/>
+  </g>
 
-    <!-- Pill 3: EasyCV Builder -->
-    <g transform="translate(375, 0)">
-      <rect width="175" height="34" rx="17" fill="#172554" stroke="#3b82f6" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="20" cy="17" r="4" fill="#60a5fa"/>
-      <text x="32" y="22" fill="#dbeafe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        📝 EasyCV Builder
-      </text>
-    </g>
+  <!-- Category Eyebrow Badge -->
+  <g transform="translate(480, 84)">
+    <rect x="-130" y="-12" width="260" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="0.8"/>
+    <text text-anchor="middle" y="4" fill="#2563eb" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2">
+      FULL-STACK &amp; SYSTEMS ARCHITECT
+    </text>
+  </g>
 
-    <!-- Pill 4: AI Coding Arena -->
-    <g transform="translate(565, 0)">
-      <rect width="175" height="34" rx="17" fill="#2e1065" stroke="#a855f7" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="20" cy="17" r="4" fill="#c084fc"/>
-      <text x="32" y="22" fill="#f3e8ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        ⚔️ AI Coding Arena
-      </text>
-    </g>
+  <!-- Main Headline Title -->
+  <text x="480" y="132" text-anchor="middle" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5">
+    CHARLIE FREEMAN
+  </text>
+
+  <!-- Philosophy Subtitle -->
+  <text x="480" y="162" text-anchor="middle" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="450" letter-spacing="0.2">
+    Pragmatic systems engineering meets frontier AI orchestration.
+  </text>
+
+  <!-- Tech Focus Ribbon -->
+  <g transform="translate(480, 190)">
+    <text text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      <tspan fill="#3b82f6" font-weight="600">TypeScript &amp; React 19</tspan>
+      <tspan fill="#cbd5e1"> • </tspan>
+      <tspan fill="#8b5cf6" font-weight="600">Async Python Core</tspan>
+      <tspan fill="#cbd5e1"> • </tspan>
+      <tspan fill="#ec4899" font-weight="600">Agentic Orchestration</tspan>
+      <tspan fill="#cbd5e1"> • </tspan>
+      <tspan fill="#10b981" font-weight="600">High-Performance Tooling</tspan>
+    </text>
+  </g>
+
+  <!-- ================= 4 FLOATING GLASS PILLS ================= -->
+  <!-- Pill 1: 51+ Open PRs -->
+  <g transform="translate(48, 230)" filter="url(#pillShadow)">
+    <rect width="204" height="52" rx="16" fill="#ffffff" fill-opacity="0.9" stroke="#e0e7ff" stroke-width="1.2"/>
+    <rect x="1" y="1" width="202" height="50" rx="15" fill="#f5f3ff" fill-opacity="0.45"/>
+    <!-- Icon Circle -->
+    <circle cx="28" cy="26" r="14" fill="#ede9fe"/>
+    <path d="M28 18 L28 34 M23 23 L28 18 L33 23" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pill Text -->
+    <text x="50" y="22" fill="#1e1b4b" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">
+      51+ Upstream PRs
+    </text>
+    <text x="50" y="38" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500">
+      Tornado · Pydantic · Turbo
+    </text>
+  </g>
+
+  <!-- Pill 2: Jingzhang Rising -->
+  <g transform="translate(268, 230)" filter="url(#pillShadow)">
+    <rect width="204" height="52" rx="16" fill="#ffffff" fill-opacity="0.9" stroke="#d1fae5" stroke-width="1.2"/>
+    <rect x="1" y="1" width="202" height="50" rx="15" fill="#ecfdf5" fill-opacity="0.45"/>
+    <!-- Icon Circle -->
+    <circle cx="28" cy="26" r="14" fill="#d1fae5"/>
+    <path d="M23 29 L28 20 L33 29 M25 26 L31 26" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pill Text -->
+    <text x="50" y="22" fill="#064e3b" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">
+      Jingzhang Rising
+    </text>
+    <text x="50" y="38" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500">
+      43.6 km² Haidian AI Urban
+    </text>
+  </g>
+
+  <!-- Pill 3: EasyCV Builder -->
+  <g transform="translate(488, 230)" filter="url(#pillShadow)">
+    <rect width="204" height="52" rx="16" fill="#ffffff" fill-opacity="0.9" stroke="#dbeafe" stroke-width="1.2"/>
+    <rect x="1" y="1" width="202" height="50" rx="15" fill="#eff6ff" fill-opacity="0.45"/>
+    <!-- Icon Circle -->
+    <circle cx="28" cy="26" r="14" fill="#dbeafe"/>
+    <rect x="23" y="19" width="10" height="14" rx="2" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+    <line x1="26" y1="23" x2="30" y2="23" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="26" y1="27" x2="30" y2="27" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Pill Text -->
+    <text x="50" y="22" fill="#1e3a8a" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">
+      EasyCV Builder
+    </text>
+    <text x="50" y="38" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500">
+      Local-First Markdown CV
+    </text>
+  </g>
+
+  <!-- Pill 4: AI Coding Arena -->
+  <g transform="translate(708, 230)" filter="url(#pillShadow)">
+    <rect width="204" height="52" rx="16" fill="#ffffff" fill-opacity="0.9" stroke="#fce7f3" stroke-width="1.2"/>
+    <rect x="1" y="1" width="202" height="50" rx="15" fill="#fdf2f8" fill-opacity="0.45"/>
+    <!-- Icon Circle -->
+    <circle cx="28" cy="26" r="14" fill="#fce7f3"/>
+    <path d="M23 29 L33 19 M23 19 L33 29" stroke="#db2777" stroke-width="2" stroke-linecap="round"/>
+    <!-- Pill Text -->
+    <text x="50" y="22" fill="#831843" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">
+      AI Coding Arena
+    </text>
+    <text x="50" y="38" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500">
+      Frontier Agent Benchmark
+    </text>
   </g>
 </svg>
