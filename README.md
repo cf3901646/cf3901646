@@ -4,23 +4,21 @@
   </a>
 </div>
 
-<p align="center">
-  <a href="https://github.com/cf3901646">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=18&duration=3200&pause=1000&color=0F172A&center=true&vCenter=true&width=780&lines=Architecting+high-impact+developer+tools+%26+agentic+systems;51%2B+Upstream+PRs+across+modern+open-source+ecosystems;Contributor+to+Tornado%2C+Pydantic%2C+Cookiecutter+%26+Turborepo;Crafting+fluid+interfaces%2C+typed+runtimes+%26+developer+experience" alt="Typing SVG" />
-  </a>
-</p>
+<div align="center">
+  <img src="./assets/tagline.svg" alt="Keynote Presentation Tagline" width="100%" />
+</div>
 
 <p align="center">
-  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-0f172a?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source_PRs-51+-6366f1?style=flat&logo=git&logoColor=white" alt="Contributions"/></a>
-  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_App-EasyCV-0284c7?style=flat&logo=vercel&logoColor=white" alt="EasyCV"/></a>
-  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white" alt="App"/></a>
-  <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html"><img src="https://img.shields.io/badge/Urban_AI-Jingzhang_Rising-d97706?style=flat&logo=visualstudiocode&logoColor=white" alt="Jingzhang Rising"/></a>
-  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat&color=0284c7" alt="Profile Views" />
+  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-0071e3?style=flat&logo=github&logoColor=0f172a&labelColor=f1f5f9" alt="GitHub"/></a>
+  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source-51+_PRs-6366f1?style=flat&logo=git&logoColor=white&labelColor=f1f5f9" alt="Contributions"/></a>
+  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_App-EasyCV-0284c7?style=flat&logo=vercel&logoColor=white&labelColor=f1f5f9" alt="EasyCV"/></a>
+  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white&labelColor=f1f5f9" alt="App"/></a>
+  <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html"><img src="https://img.shields.io/badge/Urban_AI-Jingzhang_Rising-d97706?style=flat&logo=visualstudiocode&logoColor=white&labelColor=f1f5f9" alt="Jingzhang Rising"/></a>
+  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white&labelColor=f1f5f9" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat&color=0071e3&labelColor=f1f5f9" alt="Profile Views" />
 </p>
 
-<details>
+<details open>
 <summary><b>✨ Developer Keynote Specifications / 核心技术规格一览</b></summary>
 <br/>
 
@@ -226,10 +224,10 @@ Demonstrated hands-on experience contributing features, bugfixes, and refactors 
 ### 📬 Connect &amp; Collaborate / 交流与合作
 
 <p align="center">
-  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-@cf3901646-0f172a?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_Demo-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white" alt="AI Coding Arena"/></a>
-  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-EasyCV_Builder-0284c7?style=flat&logo=vercel&logoColor=white" alt="EasyCV Builder"/></a>
+  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white&labelColor=f1f5f9" alt="Email"/></a>
+  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-@cf3901646-0071e3?style=flat&logo=github&logoColor=0f172a&labelColor=f1f5f9" alt="GitHub"/></a>
+  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_Demo-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white&labelColor=f1f5f9" alt="AI Coding Arena"/></a>
+  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-EasyCV_Builder-0284c7?style=flat&logo=vercel&logoColor=white&labelColor=f1f5f9" alt="EasyCV Builder"/></a>
 </p>
 
 - 🌐 **Interactive Live Projects**: [AI Coding Arena](https://cf3901646.github.io/ai-coding-arena/) · [EasyCV Builder](https://easycvbuilder.vercel.app) · [Jingzhang Rising Visualizer](https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html)
