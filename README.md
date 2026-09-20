@@ -6,56 +6,46 @@
 
 <p align="center">
   <a href="https://github.com/cf3901646">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+high-impact+developer+tools+%26+agentic+systems;51%2B+Open-Source+Pull+Requests+across+modern+ecosystems;Contributor+to+Tornado%2C+Pydantic%2C+Cookiecutter+%26+Turborepo;Passionate+about+Full-Stack%2C+AI+Workflows+%26+Developer+Experience" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=18&duration=3200&pause=1000&color=0F172A&center=true&vCenter=true&width=780&lines=Architecting+high-impact+developer+tools+%26+agentic+systems;51%2B+Upstream+PRs+across+modern+open-source+ecosystems;Contributor+to+Tornado%2C+Pydantic%2C+Cookiecutter+%26+Turborepo;Crafting+fluid+interfaces%2C+typed+runtimes+%26+developer+experience" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <code>🟢 SYSTEM STATUS: FULLY OPERATIONAL</code> &nbsp;|&nbsp;
-  <code>🚀 SPRINT: AI AGENT SWARMS &amp; DEVTOOLS</code> &nbsp;|&nbsp;
-  <code>📍 BEIJING / REMOTE</code>
-</p>
-
-<p align="center">
-  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source_PRs-51+-8B5CF6?style=flat-square&logo=git&logoColor=white" alt="Contributions"/></a>
-  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_App-EasyCV-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="EasyCV"/></a>
-  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-10B981?style=flat-square&logo=googlechrome&logoColor=white" alt="App"/></a>
-  <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html"><img src="https://img.shields.io/badge/Urban_AI-Jingzhang_Rising-F59E0B?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Jingzhang Rising"/></a>
-  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat-square&color=0284C7" alt="Profile Views" />
+  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-0f172a?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source_PRs-51+-6366f1?style=flat&logo=git&logoColor=white" alt="Contributions"/></a>
+  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_App-EasyCV-0284c7?style=flat&logo=vercel&logoColor=white" alt="EasyCV"/></a>
+  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white" alt="App"/></a>
+  <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html"><img src="https://img.shields.io/badge/Urban_AI-Jingzhang_Rising-d97706?style=flat&logo=visualstudiocode&logoColor=white" alt="Jingzhang Rising"/></a>
+  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat&color=0284c7" alt="Profile Views" />
 </p>
 
 <details>
-<summary><b>🕹️ [CLICK TO EXPAND] Developer Terminal &amp; System Telemetry (极客控制台与系统摘要)</b></summary>
+<summary><b>✨ Developer Keynote Specifications / 核心技术规格一览</b></summary>
 <br/>
 
-```bash
-cf3901646@github-matrix:~$ neofetch --profile
-  ┌────────────────────────────────────────────────────────────────────────┐
-  │  OS: Arch Linux / Windows Subsystem                                    │
-  │  Host: Charlie Freeman (Full-Stack & Systems Engineer)                 │
-  │  Uptime: 51+ Community PRs (Tornado, Pydantic, Cookiecutter, Turbo)   │
-  │  Shell: zsh 5.9 / powershell 7.4                                       │
-  │  Editor: Neovim / VS Code / Antigravity                                │
-  │  Tech Stack: Python (Async/AST) · TypeScript · React 19 · Node · GIS   │
-  │  Active Mission: "Eliminate cognitive load, push high-quality upstream"│
-  └────────────────────────────────────────────────────────────────────────┘
-```
+| Dimension | Specification | Architecture Details |
+| :--- | :--- | :--- |
+| **Architect Profile** | Charlie Freeman | Full-Stack & Systems Engineer · Agentic Workflow Specialist |
+| **Upstream Track Record** | 51+ Community PRs | Tornado, Pydantic, Cookiecutter, Turborepo Remote Cache |
+| **Core Runtime Stack** | Modern Type Systems | Python (AsyncIO, AST, Pydantic) · TypeScript 5.x · React 19 · Node.js |
+| **AI & Spatial Systems** | Autonomous Agent Swarms | Multi-Agent Coordination, Urban GIS Simulation (EPSG:4548), LLM Benchmarking |
+| **Engineering Motto** | *Clarity, Reliability, Zero-Gravity UX* | "Eliminate cognitive friction; deliver rigorous upstream craftsmanship." |
+
 </details>
 
 ---
 
-### 👨‍💻 Executive Bio / 个人简介
+### 💡 Vision & Engineering Philosophy / 架构愿景与简介
 
-> **"Pragmatic systems engineering meets frontier AI orchestration."**
+> **"Pragmatic systems engineering meets fluid, intelligent user experiences."**
 
-I am a **Full-Stack & Systems Engineer** specializing in reliable developer tools, agentic AI systems, and responsive web applications. With a verified track record in open source, I architect typed Python runtimes, high-performance TypeScript/React user interfaces, and automated workflows.
+I am a **Full-Stack & Systems Engineer** committed to building resilient developer tools, autonomous agent architectures, and responsive web applications. Inspired by Apple's precision craftsmanship and Google Antigravity's fluid, weightless interactivity, I combine typed Python runtimes, performant modern TypeScript/React interfaces, and automated agent workflows.
 
-- 🔭 **Current Focus**: Evaluating and benchmarking state-of-the-art AI coding assistants, streamlining monorepo developer experience, and exploring context compaction for autonomous agents.
-- 🌐 **Open Source Footprint**: Authored **51+ Pull Requests** across industry-standard libraries including **[Tornado](https://github.com/tornadoweb/tornado)**, **[Pydantic](https://github.com/pydantic/pydantic)**, **[Cookiecutter](https://github.com/cookiecutter/cookiecutter)**, **[Turborepo Remote Cache](https://github.com/ducktors/turborepo-remote-cache)**, and multiple AI agent runtimes.
-- 💡 **Engineering Philosophy**: Strict typing, zero-redundancy abstractions, robust error boundaries, and developer-first documentation.
-- 💬 **Ask Me About**: Agent orchestration swarms, Python AST / validation internals, full-stack architecture, and mobile hybrid deployment.
+- 🔭 **Current Focus**: Designing context-efficient autonomous agent workflows, evaluating frontier AI coding assistants, and refining developer ergonomics across monorepos.
+- 🌐 **Open Source Footprint**: Authored **51+ Pull Requests** across industry-standard libraries including **[Tornado](https://github.com/tornadoweb/tornado)**, **[Pydantic](https://github.com/pydantic/pydantic)**, **[Cookiecutter](https://github.com/cookiecutter/cookiecutter)**, and **[Turborepo Remote Cache](https://github.com/ducktors/turborepo-remote-cache)**.
+- 🎨 **Design & Architecture Philosophy**: Strict static typing, fluid interaction boundaries, zero-bloat abstraction layers, and clear, human-centric documentation.
+- 💬 **Collaborative Discussions**: Agent orchestration frameworks, Python AST / dynamic validator internals, modern front-end state machines, and GIS spatial computing.
 
 ---
 
@@ -93,7 +83,7 @@ I am a **Full-Stack & Systems Engineer** specializing in reliable developer tool
         <sub>📝 极简纯粹本地 Markdown 可视化简历编辑器</sub>
       </td>
       <td>
-        A zero-dependency, local-first visual resume builder built with pure HTML5, CSS3 &amp; Vanilla JavaScript. Features real-time WYSIWYG editing, 9 designer themes, dark mode, mobile responsiveness, and high-fidelity PDF export.
+        A zero-dependency, local-first visual resume builder built with pure HTML5, CSS3 &amp; Vanilla JavaScript. Features real-time WYSIWYG editing, 9 designer themes, light &amp; dark mode, mobile responsiveness, and high-fidelity PDF export.
       </td>
       <td>
         <code>Vanilla JS</code> <code>HTML5</code> <code>CSS3</code>
@@ -175,67 +165,57 @@ Demonstrated hands-on experience contributing features, bugfixes, and refactors 
 
 | Ecosystem / Repository | Key Contribution &amp; Scope | Impact / Issue Addressed | Status |
 | :--- | :--- | :--- | :---: |
-| **[tornadoweb / tornado](https://github.com/tornadoweb/tornado)** | Asynchronous TLS Connection Safety | Close SSL stream and cancel `start_tls` future on TLS timeout to prevent resource leaks ([#3735](https://github.com/tornadoweb/tornado/pull/3735)) | `In Review` |
-| **[pydantic / pydantic](https://github.com/pydantic/pydantic)** | Dynamic Validator Annotation Enhancements | Allow `PydanticDescriptorProxy` in `create_model` `__validators__` annotations ([#13837](https://github.com/pydantic/pydantic/pull/13837)) | `In Review` |
-| **[cookiecutter / cookiecutter](https://github.com/cookiecutter/cookiecutter)** | Robust VCS Error Handling | Preserve existing project template directory when clone operations fail ([#2270](https://github.com/cookiecutter/cookiecutter/pull/2270)) | `In Review` |
+| **[tornadoweb / tornado](https://github.com/tornadoweb/tornado)** | Asynchronous TLS Connection Safety | Close SSL stream and cancel `start_tls` future on TLS timeout to prevent resource leaks ([#3735](https://github.com/tornadoweb/tornado/pull/3735)) | `In Review` ⏳ |
+| **[pydantic / pydantic](https://github.com/pydantic/pydantic)** | Dynamic Validator Annotation Enhancements | Allow `PydanticDescriptorProxy` in `create_model` `__validators__` annotations ([#13837](https://github.com/pydantic/pydantic/pull/13837)) | `In Review` ⏳ |
+| **[cookiecutter / cookiecutter](https://github.com/cookiecutter/cookiecutter)** | Robust VCS Error Handling | Preserve existing project template directory when clone operations fail ([#2270](https://github.com/cookiecutter/cookiecutter/pull/2270)) | `In Review` ⏳ |
 | **[ducktors / turborepo-remote-cache](https://github.com/ducktors/turborepo-remote-cache)** | High-Performance Remote Cache Architecture | Added separate read URL support for CDN offloading ([#778](https://github.com/ducktors/turborepo-remote-cache/pull/778)) &amp; authored CDN documentation ([#874](https://github.com/ducktors/turborepo-remote-cache/pull/874)) | `Merged` 🎉 |
 | **[open-city-ai / haidian](https://github.com/open-city-ai/haidian)** | Spatial Governance &amp; AI Simulation System | Engineered Report Card Simulator, street-level experiential views, and executable AI admission rules ([#4125](https://github.com/open-city-ai/haidian/pull/4125), [#3080](https://github.com/open-city-ai/haidian/pull/3080), [#2509](https://github.com/open-city-ai/haidian/pull/2509)) | `Merged` 🎉 |
 | **[smithd36 / biomata-engine](https://github.com/smithd36/biomata-engine)** | Autonomous NPC Simulation Architecture | Extracted unified `_do_register_agent` pipeline to eliminate redundant agent registration routines ([#19](https://github.com/smithd36/biomata-engine/pull/19)) | `Merged` 🎉 |
 | **[vm0-ai / okou](https://github.com/vm0-ai/okou)** | Reverse Proxy &amp; Usage Billing Fix | Safe merge handling for WebSocket OpenAI Responses billing usage ([#14568](https://github.com/vm0-ai/okou/pull/14568)) | `Merged` 🎉 |
-| **[ncdai / chanhdai.com](https://github.com/ncdai/chanhdai.com)** | UI Component Theme Adaptation | Made testimonial spotlight theme-aware for dark/light mode consistency ([#1450](https://github.com/ncdai/chanhdai.com/pull/1450)) | `In Review` |
-| **[dimensionalOS / dimos](https://github.com/dimensionalOS/dimos)** | Physical Space Agent Operating System | Context window memory compaction when agent conversation history exceeds limits ([#3455](https://github.com/dimensionalOS/dimos/pull/3455)) | `In Review` |
-| **[tuchg / Lucarne](https://github.com/tuchg/Lucarne)** | Zero-Intrusion Mobile Agent Control Bridge | Added native runtime support for remote agent environments ([#48](https://github.com/tuchg/Lucarne/pull/48)) | `In Review` |
+| **[ncdai / chanhdai.com](https://github.com/ncdai/chanhdai.com)** | UI Component Theme Adaptation | Made testimonial spotlight theme-aware for dark/light mode consistency ([#1450](https://github.com/ncdai/chanhdai.com/pull/1450)) | `In Review` ⏳ |
+| **[dimensionalOS / dimos](https://github.com/dimensionalOS/dimos)** | Physical Space Agent Operating System | Context window memory compaction when agent conversation history exceeds limits ([#3455](https://github.com/dimensionalOS/dimos/pull/3455)) | `In Review` ⏳ |
+| **[tuchg / Lucarne](https://github.com/tuchg/Lucarne)** | Zero-Intrusion Mobile Agent Control Bridge | Added native runtime support for remote agent environments ([#48](https://github.com/tuchg/Lucarne/pull/48)) | `In Review` ⏳ |
 
 ---
 
-### 🛠️ Technical Arsenal &amp; Skills / 技能清单
+### 🛠️ Technical Arsenal &amp; Specifications / 技术栈与架构图谱
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,vite,tailwind,nodejs,fastapi,docker,git,githubactions&amp;theme=dark" alt="Technical Arsenal" />
+    <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,vite,tailwind,nodejs,fastapi,docker,git,githubactions&amp;theme=light" alt="Technical Arsenal" />
   </a>
 </p>
 
-```yaml
-Languages:
-  - Python (Type-Hints, AsyncIO, AST, Pytest, Pydantic)
-  - TypeScript / JavaScript (ES2024+, Node.js, Bun)
-  - HTML5 / CSS3 / SCSS / Bash Scripting
-Frontend & Mobile:
-  - React 18/19, Next.js, Vite, Tailwind CSS, shadcn/ui
-  - Capacitor, Android Native Integration, Responsive Design
-Backend & Architecture:
-  - FastAPI, Node.js / Express, RESTful APIs, WebSocket
-  - Turborepo, Monorepo tooling, CDN Caching Architectures
-AI & Autonomous Systems:
-  - LLM Agent Orchestration, Multi-Agent Swarms, Prompt Engineering
-  - Coding Assistant Benchmarking, Context Window Compaction
-DevOps & Tooling:
-  - Git, GitHub Actions (CI/CD), Docker, Vercel, Linux
-```
+| Domain | Core Technologies &amp; Architecture Toolchains |
+| :--- | :--- |
+| **Languages &amp; Core** | **Python** (AsyncIO, AST, Type-Hints, Pydantic, Pytest) · **TypeScript / JavaScript** (ES2024+, Node.js, Bun) · **HTML5 / CSS3 / SCSS** |
+| **Frontend &amp; Mobile** | **React 18/19**, **Next.js**, **Vite**, **Tailwind CSS**, **shadcn/ui**, **Capacitor**, Android Native System Integration |
+| **Backend &amp; Distributed** | **FastAPI**, **Node.js / Express**, RESTful APIs, WebSocket, CDN Caching, Turborepo Monorepo Architecture |
+| **AI &amp; Autonomous Systems** | **LLM Agent Orchestration**, Multi-Agent Coordination, Assistant Benchmarking, Context Window Compaction |
+| **DevOps &amp; Tooling** | **Git**, **GitHub Actions (CI/CD)**, Docker, Vercel, Linux System Administration |
 
 ---
 
-### 📊 GitHub Activity &amp; Real-Time Stats / 活跃度与数据看板
+### 📊 GitHub Activity &amp; Real-Time Telemetry / 活跃度与数据看板
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cf3901646&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="Charlie Freeman GitHub Stats" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cf3901646&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cf3901646&amp;show_icons=true&amp;theme=default&amp;bg_color=ffffff&amp;title_color=0071e3&amp;text_color=334155&amp;icon_color=0071e3&amp;border_color=e2e8f0&amp;border_radius=16&amp;count_private=true" alt="Charlie Freeman GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cf3901646&amp;layout=compact&amp;theme=default&amp;bg_color=ffffff&amp;title_color=0071e3&amp;text_color=334155&amp;border_color=e2e8f0&amp;border_radius=16" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cf3901646&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cf3901646&amp;theme=light&amp;background=ffffff&amp;ring=0071e3&amp;fire=0071e3&amp;currStreakNum=0f172a&amp;sideNums=0f172a&amp;sideLabels=64748b&amp;currStreakLabel=0071e3&amp;dates=94a3b8&amp;border=e2e8f0&amp;border_radius=16" alt="GitHub Streak" />
 </p>
 
 ---
 
-### 🕹️ The Green Wall Arcade / 绿墙游戏厅
+### ✨ Contribution Dynamics / 代码贡献脉络
 
-> *"Watch the contribution snake eat through commits in real-time."*
+> *"Continuous momentum, thoughtful commits, and persistent upstream craftsmanship."*
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
   </picture>
@@ -243,12 +223,20 @@ DevOps & Tooling:
 
 ---
 
-### 📬 Connect &amp; Collaborate / 联系方式
+### 📬 Connect &amp; Collaborate / 交流与合作
 
-- 🌐 **Live Web Apps**: [AI Coding Arena](https://cf3901646.github.io/ai-coding-arena/) · [EasyCV Builder](https://easycvbuilder.vercel.app) · [Jingzhang Rising Visualizer](https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html)
-- 💻 **GitHub**: [@cf3901646](https://github.com/cf3901646)
-- 📧 **Email**: [cf3901646@gmail.com](mailto:cf3901646@gmail.com)
-- 🤝 **Collaboration**: Always open to high-impact collaborations on open-source tooling, agentic systems, and full-stack applications. Feel free to open an issue or drop an email!
+<p align="center">
+  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-@cf3901646-0f172a?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_Demo-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white" alt="AI Coding Arena"/></a>
+  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-EasyCV_Builder-0284c7?style=flat&logo=vercel&logoColor=white" alt="EasyCV Builder"/></a>
+</p>
+
+- 🌐 **Interactive Live Projects**: [AI Coding Arena](https://cf3901646.github.io/ai-coding-arena/) · [EasyCV Builder](https://easycvbuilder.vercel.app) · [Jingzhang Rising Visualizer](https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html)
+- 💻 **Open Source Collaboration**: Always open to partnering on autonomous developer tools, upstream libraries, and high-impact web products.
+- 📧 **Direct Reach**: Drop an email at [cf3901646@gmail.com](mailto:cf3901646@gmail.com) or initiate a GitHub discussion.
+
+<br/>
 
 <div align="center">
   <img src="./assets/footer.svg" alt="Footer Line" width="100%"/>
