@@ -1,0 +1,21 @@
+<svg width="900" height="40" viewBox="0 0 900 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="footerGlow">
+      <feGaussianBlur stdDeviation="3" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <line x1="50" y1="20" x2="850" y2="20" stroke="url(#footerLine)" stroke-width="2" filter="url(#footerGlow)"/>
+  <circle cx="450" cy="20" r="4" fill="#38bdf8" filter="url(#footerGlow)"/>
+</svg>
