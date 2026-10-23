@@ -1,241 +1,111 @@
 <div align="center">
-  <a href="https://github.com/cf3901646">
-    <img src="./assets/banner.svg" alt="Charlie Freeman - Full-Stack & Systems Engineer" width="100%" />
+  <a href="https://3901646.xyz">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-night.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/banner-day.svg" />
+      <img src="./assets/banner-day.svg" width="100%" alt="Charlie Freeman · 日光里的个人手册" />
+    </picture>
   </a>
 </div>
 
-<div align="center">
-  <img src="./assets/tagline.svg" alt="Keynote Presentation Tagline" width="100%" />
-</div>
-
 <p align="center">
-  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-cf3901646-0071e3?style=flat&logo=github&logoColor=0f172a&labelColor=f1f5f9" alt="GitHub"/></a>
-  <a href="https://github.com/pulls?q=author%3Acf3901646"><img src="https://img.shields.io/badge/Open_Source-51+_PRs-6366f1?style=flat&logo=git&logoColor=white&labelColor=f1f5f9" alt="Contributions"/></a>
-  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_App-EasyCV-0284c7?style=flat&logo=vercel&logoColor=white&labelColor=f1f5f9" alt="EasyCV"/></a>
-  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_App-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white&labelColor=f1f5f9" alt="App"/></a>
-  <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html"><img src="https://img.shields.io/badge/Urban_AI-Jingzhang_Rising-d97706?style=flat&logo=visualstudiocode&logoColor=white&labelColor=f1f5f9" alt="Jingzhang Rising"/></a>
-  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white&labelColor=f1f5f9" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=cf3901646&style=flat&color=0071e3&labelColor=f1f5f9" alt="Profile Views" />
+  <a href="https://3901646.xyz">3901646.xyz</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:cf3901646@gmail.com">cf3901646@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/search?q=author%3Acf3901646+type%3Apr&amp;type=pullrequests">开源贡献</a>
 </p>
 
-<details open>
-<summary><b>✨ Developer Keynote Specifications / 核心技术规格一览</b></summary>
-<br/>
+<br />
 
-| Dimension | Specification | Architecture Details |
-| :--- | :--- | :--- |
-| **Architect Profile** | Charlie Freeman | Full-Stack & Systems Engineer · Agentic Workflow Specialist |
-| **Upstream Track Record** | 51+ Community PRs | Tornado, Pydantic, Cookiecutter, Turborepo Remote Cache |
-| **Core Runtime Stack** | Modern Type Systems | Python (AsyncIO, AST, Pydantic) · TypeScript 5.x · React 19 · Node.js |
-| **AI & Spatial Systems** | Autonomous Agent Swarms | Multi-Agent Coordination, Urban GIS Simulation (EPSG:4548), LLM Benchmarking |
-| **Engineering Motto** | *Clarity, Reliability, Zero-Gravity UX* | "Eliminate cognitive friction; deliver rigorous upstream craftsmanship." |
+我关注日常里那些微小的阻力。<br />
+通过设计和工具，试着让复杂的事情变得清楚，让每一次使用少一点负担。
 
-</details>
+<sub>I make small, careful tools for everyday friction: typography, images, weather, cars, music, and the AI agents I work with.</sub>
 
----
+<br />
 
-### 💡 Vision & Engineering Philosophy / 架构愿景与简介
+### 01 / 工具架 · Tools
 
-> **"Pragmatic systems engineering meets fluid, intelligent user experiences."**
-
-I am a **Full-Stack & Systems Engineer** committed to building resilient developer tools, autonomous agent architectures, and responsive web applications. Inspired by Apple's precision craftsmanship and Google Antigravity's fluid, weightless interactivity, I combine typed Python runtimes, performant modern TypeScript/React interfaces, and automated agent workflows.
-
-- 🔭 **Current Focus**: Designing context-efficient autonomous agent workflows, evaluating frontier AI coding assistants, and refining developer ergonomics across monorepos.
-- 🌐 **Open Source Footprint**: Authored **51+ Pull Requests** across industry-standard libraries including **[Tornado](https://github.com/tornadoweb/tornado)**, **[Pydantic](https://github.com/pydantic/pydantic)**, **[Cookiecutter](https://github.com/cookiecutter/cookiecutter)**, and **[Turborepo Remote Cache](https://github.com/ducktors/turborepo-remote-cache)**.
-- 🎨 **Design & Architecture Philosophy**: Strict static typing, fluid interaction boundaries, zero-bloat abstraction layers, and clear, human-centric documentation.
-- 💬 **Collaborative Discussions**: Agent orchestration frameworks, Python AST / dynamic validator internals, modern front-end state machines, and GIS spatial computing.
-
----
-
-### 🚀 Flagship Projects / 核心代表作
-
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="28%">Project</th>
-      <th width="47%">Description &amp; Architecture Highlights</th>
-      <th width="25%">Tech Stack &amp; Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/haidian">Jingzhang Rising (京张向上)</a></b>
-        <br/>
-        <sub>🚄 43.6 km² 百年京张 AI 创新带城市设计 (96+ 官方就绪)</sub>
-      </td>
-      <td>
-        The first-ever real-world urban design package autonomously generated by AI agents for Beijing Haidian's 43.6 km² innovation belt. Merged into upstream official competition (PR #4125), featuring 9 GeoJSON layers (EPSG:4548), pure CSS state-machine interactive visualizer, and "Human Fallback + Public Auditable Sheet" civic governance.
-      </td>
-      <td>
-        <code>GIS</code> <code>EPSG:4548</code> <code>CSS3</code> <code>AI Agent</code>
-        <br/><br/>
-        <a href="https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html">🌐 <b>Live Demo 交互主页</b></a><br/>
-        <a href="https://github.com/cf3901646/haidian">📦 <b>GitHub Repo</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/EasyCV">EasyCV 简历工作台</a></b>
-        <br/>
-        <sub>📝 极简纯粹本地 Markdown 可视化简历编辑器</sub>
-      </td>
-      <td>
-        A zero-dependency, local-first visual resume builder built with pure HTML5, CSS3 &amp; Vanilla JavaScript. Features real-time WYSIWYG editing, 9 designer themes, light &amp; dark mode, mobile responsiveness, and high-fidelity PDF export.
-      </td>
-      <td>
-        <code>Vanilla JS</code> <code>HTML5</code> <code>CSS3</code>
-        <br/><br/>
-        <a href="https://easycvbuilder.vercel.app">🚀 <b>Live App 在线使用</b></a><br/>
-        <a href="https://github.com/cf3901646/EasyCV">📦 <b>GitHub Repo</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/ai-coding-arena">AI Coding Arena</a></b>
-        <br/>
-        <sub>⚔️ AI 编程智能体全场景盲测竞技场</sub>
-      </td>
-      <td>
-        An interactive side-by-side benchmarking platform comparing 4 frontier AI coding assistants (<b>Google Antigravity</b>, <b>OpenAI Codex</b>, <b>AWS Kiro</b>, <b>GitHub Copilot</b>) on identical scenarios and prompts with directly playable embedded solutions.
-      </td>
-      <td>
-        <code>JavaScript</code> <code>CSS3</code> <code>Benchmark</code>
-        <br/><br/>
-        <a href="https://cf3901646.github.io/ai-coding-arena/">🔗 <b>Live Demo 在线体验</b></a><br/>
-        <a href="https://github.com/cf3901646/ai-coding-arena">📦 <b>GitHub Repo</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/thermal-feels-like">Thermal Comfort Meter v2.0</a></b>
-        <br/>
-        <sub>🌡️ 智能双重体感温度计</sub>
-      </td>
-      <td>
-        A thermodynamic sensible temperature simulation application that models human biological perception across dual environments (indoor comfort vs outdoor solar radiation &amp; wind chill), complete with Android native immersive system UI integration.
-      </td>
-      <td>
-        <code>JavaScript</code> <code>Capacitor</code> <code>Android</code>
-        <br/><br/>
-        <a href="https://github.com/cf3901646/thermal-feels-like">📦 <b>GitHub Repo</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/TalkNative">TalkNative (LingoFlow)</a></b>
-        <br/>
-        <sub>🎯 沉浸式地道英语口语听说私教</sub>
-      </td>
-      <td>
-        An immersive language training application tailored for acquiring colloquial English speech patterns, situational conversational instincts, and listening fluency with modern reactive UI.
-      </td>
-      <td>
-        <code>TypeScript</code> <code>React</code> <code>Vite</code>
-        <br/><br/>
-        <a href="https://github.com/cf3901646/TalkNative">📦 <b>GitHub Repo</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/cf3901646/AITextRestorer">AITextRestorer</a></b>
-        <br/>
-        <sub>🎨 AI 图像中文变形自适应修复工具</sub>
-      </td>
-      <td>
-        Desktop and Web utility engineered to detect, segment, and intelligently restore non-Latin (Chinese) text glyph distortions generated during AI image super-resolution and diffusion enhancements.
-      </td>
-      <td>
-        <code>Python</code> <code>OpenCV</code> <code>Full-Stack</code>
-        <br/><br/>
-        <a href="https://github.com/cf3901646/AITextRestorer">🐍 <b>Python Core</b></a><br/>
-        <a href="https://github.com/cf3901646/AITextRestorer-Web">🌐 <b>Web Frontend</b></a>
-      </td>
-    </tr>
-  </tbody>
+<table>
+  <tr>
+    <td width="30%"><b>EasyCV</b><br /><sub>简历与排版</sub></td>
+    <td>用滑块细调字号、行距和留白，即时看到变化。内容只存在本地，可导出 PDF。</td>
+    <td width="18%"><a href="https://cv.3901646.xyz">打开 ↗</a><br /><a href="https://github.com/cf3901646/EasyCV">源码</a></td>
+  </tr>
+  <tr>
+    <td><b>AITextRestorer</b><br /><sub>图像与文字</sub></td>
+    <td>AI 增强画面时常把中文笔画改坏。把原图里正确的文字重新对齐，融回增强后的背景。</td>
+    <td><a href="https://restore.3901646.xyz">网页版 ↗</a><br /><a href="https://github.com/cf3901646/AITextRestorer">桌面版</a></td>
+  </tr>
+  <tr>
+    <td><b>车规标尺</b><br /><sub>Car Dimension Filter · 买车与停车</sub></td>
+    <td>收录 1693 款车系、12550 款配置。按尺寸筛车，检查商场地库车位的开门余量和机械车位能否进入，计算轴距与车长之比。</td>
+    <td><a href="https://cf3901646.github.io/car-dimension-filter/">打开 ↗</a><br /><a href="https://github.com/cf3901646/car-dimension-filter">源码</a></td>
+  </tr>
+  <tr>
+    <td><b>体感温度计</b><br /><sub>Thermal · 天气与感受</sub></td>
+    <td>结合温度、湿度、风速与日照，估算室内阴凉处和室外日光下的体感差异。</td>
+    <td><a href="https://github.com/cf3901646/thermal-feels-like">源码</a></td>
+  </tr>
+  <tr>
+    <td><b>诗云</b><br /><sub>Poetry Cloud · 文字与时间</sub></td>
+    <td>致敬刘慈欣《诗云》。按物理时钟每秒穷举二十万首五言绝句，并推算与《静夜思》重逢需要多少个宇宙年龄。</td>
+    <td><a href="https://cf3901646.github.io/poetry-cloud/">打开 ↗</a><br /><a href="https://github.com/cf3901646/poetry-cloud">源码</a></td>
+  </tr>
+  <tr>
+    <td><b>Space DJ</b><br /><sub>声音与星际</sub></td>
+    <td>驾驶飞船穿过由音乐风格组成的星系，Lyria RealTime 按航行位置实时生成音乐。改造自 Google Magenta 的实验项目。</td>
+    <td><a href="https://3901646.xyz/space/">起航 ↗</a></td>
+  </tr>
+  <tr>
+    <td><b>Antigravity Agent Rules</b><br /><sub>给 AI 的工作守则</sub></td>
+    <td>AI 编程智能体的基线规则：回答只说重点，同一个卡点最多试两次，复杂改动走多智能体对抗式评审（<code>/pd</code>）。</td>
+    <td><a href="https://github.com/cf3901646/antigravity-agent-rules">源码</a></td>
+  </tr>
 </table>
 
----
+### 02 / 其他实验 · Experiments
 
-### 🤝 Open Source Track Record &amp; Upstream Contributions / 开源贡献履历
+- **京张向上 Jingzhang Rising**：海淀 43.6 km² 京张 AI 创新带的城市设计方案，已合入 open-city-ai/haidian 赛事仓库。[交互主页 ↗](https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html)
+- **AI Coding Arena**：同一组题目交给 Antigravity、Codex、Kiro、Copilot，把产出并排放在一起直接运行。[在线 ↗](https://cf3901646.github.io/ai-coding-arena/)
+- **TalkNative**：场景化的英语口语听说练习。[源码](https://github.com/cf3901646/TalkNative)
 
-Demonstrated hands-on experience contributing features, bugfixes, and refactors to major upstream open source ecosystems:
+<sub>更多记录在 <a href="https://github.com/cf3901646?tab=repositories&amp;type=source">仓库列表</a>。</sub>
 
-| Ecosystem / Repository | Key Contribution &amp; Scope | Impact / Issue Addressed | Status |
-| :--- | :--- | :--- | :---: |
-| **[tornadoweb / tornado](https://github.com/tornadoweb/tornado)** | Asynchronous TLS Connection Safety | Close SSL stream and cancel `start_tls` future on TLS timeout to prevent resource leaks ([#3735](https://github.com/tornadoweb/tornado/pull/3735)) | `In Review` ⏳ |
-| **[pydantic / pydantic](https://github.com/pydantic/pydantic)** | Dynamic Validator Annotation Enhancements | Allow `PydanticDescriptorProxy` in `create_model` `__validators__` annotations ([#13837](https://github.com/pydantic/pydantic/pull/13837)) | `In Review` ⏳ |
-| **[cookiecutter / cookiecutter](https://github.com/cookiecutter/cookiecutter)** | Robust VCS Error Handling | Preserve existing project template directory when clone operations fail ([#2270](https://github.com/cookiecutter/cookiecutter/pull/2270)) | `In Review` ⏳ |
-| **[ducktors / turborepo-remote-cache](https://github.com/ducktors/turborepo-remote-cache)** | High-Performance Remote Cache Architecture | Added separate read URL support for CDN offloading ([#778](https://github.com/ducktors/turborepo-remote-cache/pull/778)) &amp; authored CDN documentation ([#874](https://github.com/ducktors/turborepo-remote-cache/pull/874)) | `Merged` 🎉 |
-| **[open-city-ai / haidian](https://github.com/open-city-ai/haidian)** | Spatial Governance &amp; AI Simulation System | Engineered Report Card Simulator, street-level experiential views, and executable AI admission rules ([#4125](https://github.com/open-city-ai/haidian/pull/4125), [#3080](https://github.com/open-city-ai/haidian/pull/3080), [#2509](https://github.com/open-city-ai/haidian/pull/2509)) | `Merged` 🎉 |
-| **[smithd36 / biomata-engine](https://github.com/smithd36/biomata-engine)** | Autonomous NPC Simulation Architecture | Extracted unified `_do_register_agent` pipeline to eliminate redundant agent registration routines ([#19](https://github.com/smithd36/biomata-engine/pull/19)) | `Merged` 🎉 |
-| **[vm0-ai / okou](https://github.com/vm0-ai/okou)** | Reverse Proxy &amp; Usage Billing Fix | Safe merge handling for WebSocket OpenAI Responses billing usage ([#14568](https://github.com/vm0-ai/okou/pull/14568)) | `Merged` 🎉 |
-| **[ncdai / chanhdai.com](https://github.com/ncdai/chanhdai.com)** | UI Component Theme Adaptation | Made testimonial spotlight theme-aware for dark/light mode consistency ([#1450](https://github.com/ncdai/chanhdai.com/pull/1450)) | `In Review` ⏳ |
-| **[dimensionalOS / dimos](https://github.com/dimensionalOS/dimos)** | Physical Space Agent Operating System | Context window memory compaction when agent conversation history exceeds limits ([#3455](https://github.com/dimensionalOS/dimos/pull/3455)) | `In Review` ⏳ |
-| **[tuchg / Lucarne](https://github.com/tuchg/Lucarne)** | Zero-Intrusion Mobile Agent Control Bridge | Added native runtime support for remote agent environments ([#48](https://github.com/tuchg/Lucarne/pull/48)) | `In Review` ⏳ |
+### 03 / 开源贡献 · Upstream
 
----
-
-### 🛠️ Technical Arsenal &amp; Specifications / 技术栈与架构图谱
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,vite,tailwind,nodejs,fastapi,docker,git,githubactions&amp;theme=light" alt="Technical Arsenal" />
-  </a>
+<p>
+  <a href="https://github.com/search?q=author%3Acf3901646+type%3Apr+is%3Amerged&amp;type=pullrequests"><img src="https://img.shields.io/github/issues-search?query=author%3Acf3901646%20type%3Apr%20is%3Amerged&amp;label=merged%20PRs&amp;style=flat-square&amp;color=777e58&amp;labelColor=393d33" alt="已合并的 PR" /></a>
+  <a href="https://github.com/search?q=author%3Acf3901646+type%3Apr+is%3Aopen&amp;type=pullrequests"><img src="https://img.shields.io/github/issues-search?query=author%3Acf3901646%20type%3Apr%20is%3Aopen&amp;label=in%20review&amp;style=flat-square&amp;color=a08562&amp;labelColor=393d33" alt="评审中的 PR" /></a>
 </p>
 
-| Domain | Core Technologies &amp; Architecture Toolchains |
-| :--- | :--- |
-| **Languages &amp; Core** | **Python** (AsyncIO, AST, Type-Hints, Pydantic, Pytest) · **TypeScript / JavaScript** (ES2024+, Node.js, Bun) · **HTML5 / CSS3 / SCSS** |
-| **Frontend &amp; Mobile** | **React 18/19**, **Next.js**, **Vite**, **Tailwind CSS**, **shadcn/ui**, **Capacitor**, Android Native System Integration |
-| **Backend &amp; Distributed** | **FastAPI**, **Node.js / Express**, RESTful APIs, WebSocket, CDN Caching, Turborepo Monorepo Architecture |
-| **AI &amp; Autonomous Systems** | **LLM Agent Orchestration**, Multi-Agent Coordination, Assistant Benchmarking, Context Window Compaction |
-| **DevOps &amp; Tooling** | **Git**, **GitHub Actions (CI/CD)**, Docker, Vercel, Linux System Administration |
+已合并：
 
----
+| 仓库 | 做了什么 | PR |
+| :--- | :--- | :--- |
+| [ducktors/turborepo-remote-cache](https://github.com/ducktors/turborepo-remote-cache) | 支持单独配置读取 URL，让缓存下载走 CDN；补上对应文档 | [#778](https://github.com/ducktors/turborepo-remote-cache/pull/778) · [#874](https://github.com/ducktors/turborepo-remote-cache/pull/874) |
+| [open-city-ai/haidian](https://github.com/open-city-ai/haidian) | 京张向上方案的提交与迭代：报告卡模拟器、街道视角、可执行的 AI 准入规则 | [#1999](https://github.com/open-city-ai/haidian/pull/1999) · [#2509](https://github.com/open-city-ai/haidian/pull/2509) · [#3080](https://github.com/open-city-ai/haidian/pull/3080) · [全部](https://github.com/open-city-ai/haidian/pulls?q=is%3Apr+author%3Acf3901646+is%3Amerged) |
+| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 新增蒙古语翻译 | [#6344](https://github.com/hoppscotch/hoppscotch/pull/6344) |
+| [smithd36/biomata-engine](https://github.com/smithd36/biomata-engine) | 抽出 `_do_register_agent`，去掉重复的智能体注册逻辑 | [#19](https://github.com/smithd36/biomata-engine/pull/19) |
+| [michaelegner/architecture-intelligence-platform](https://github.com/michaelegner/architecture-intelligence-platform) | Bug 报告模板加入 Kubernetes 发现与 MCP 选项 | [#405](https://github.com/michaelegner/architecture-intelligence-platform/pull/405) |
 
-### 📊 GitHub Activity &amp; Real-Time Telemetry / 活跃度与数据看板
+评审中（2026 年 10 月）：[vllm #62773](https://github.com/vllm-project/vllm/pull/62773) · [pytorch #201462](https://github.com/pytorch/pytorch/pull/201462) · [litellm](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3Acf3901646+is%3Aopen) · [prefect](https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+author%3Acf3901646+is%3Aopen) · [excalidraw](https://github.com/excalidraw/excalidraw/pulls?q=is%3Apr+author%3Acf3901646+is%3Aopen) · [langflow #15941](https://github.com/langflow-ai/langflow/pull/15941) · [cookiecutter #2270](https://github.com/cookiecutter/cookiecutter/pull/2270)
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cf3901646&amp;show_icons=true&amp;theme=default&amp;bg_color=ffffff&amp;title_color=0071e3&amp;text_color=334155&amp;icon_color=0071e3&amp;border_color=e2e8f0&amp;border_radius=16&amp;count_private=true" alt="Charlie Freeman GitHub Stats" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cf3901646&amp;layout=compact&amp;theme=default&amp;bg_color=ffffff&amp;title_color=0071e3&amp;text_color=334155&amp;border_color=e2e8f0&amp;border_radius=16" alt="Top Languages" />
-</p>
+### 04 / 常用的材料 · Stack
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cf3901646&amp;theme=light&amp;background=ffffff&amp;ring=0071e3&amp;fire=0071e3&amp;currStreakNum=0f172a&amp;sideNums=0f172a&amp;sideLabels=64748b&amp;currStreakLabel=0071e3&amp;dates=94a3b8&amp;border=e2e8f0&amp;border_radius=16" alt="GitHub Streak" />
-</p>
+`Python` `TypeScript` `React` `Vite` `Tailwind CSS` `Lit` `Three.js` `FastAPI` `Cloudflare Pages` `GitHub Actions`
 
----
-
-### ✨ Contribution Dynamics / 代码贡献脉络
-
-> *"Continuous momentum, thoughtful commits, and persistent upstream craftsmanship."*
+### 05 / 节奏 · Contributions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg" />
+    <img alt="贡献格子" src="https://raw.githubusercontent.com/cf3901646/cf3901646/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
----
+<br />
 
-### 📬 Connect &amp; Collaborate / 交流与合作
-
-<p align="center">
-  <a href="mailto:cf3901646@gmail.com"><img src="https://img.shields.io/badge/Email-cf3901646%40gmail.com-ea4335?style=flat&logo=gmail&logoColor=white&labelColor=f1f5f9" alt="Email"/></a>
-  <a href="https://github.com/cf3901646"><img src="https://img.shields.io/badge/GitHub-@cf3901646-0071e3?style=flat&logo=github&logoColor=0f172a&labelColor=f1f5f9" alt="GitHub"/></a>
-  <a href="https://cf3901646.github.io/ai-coding-arena/"><img src="https://img.shields.io/badge/Live_Demo-AI_Coding_Arena-059669?style=flat&logo=googlechrome&logoColor=white&labelColor=f1f5f9" alt="AI Coding Arena"/></a>
-  <a href="https://easycvbuilder.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-EasyCV_Builder-0284c7?style=flat&logo=vercel&logoColor=white&labelColor=f1f5f9" alt="EasyCV Builder"/></a>
-</p>
-
-- 🌐 **Interactive Live Projects**: [AI Coding Arena](https://cf3901646.github.io/ai-coding-arena/) · [EasyCV Builder](https://easycvbuilder.vercel.app) · [Jingzhang Rising Visualizer](https://haidian.open-city.ai/submissions/cf3901646/jingzhang-rising/visual/index.html)
-- 💻 **Open Source Collaboration**: Always open to partnering on autonomous developer tools, upstream libraries, and high-impact web products.
-- 📧 **Direct Reach**: Drop an email at [cf3901646@gmail.com](mailto:cf3901646@gmail.com) or initiate a GitHub discussion.
-
-<br/>
-
-<div align="center">
-  <img src="./assets/footer.svg" alt="Footer Line" width="100%"/>
-</div>
+<p align="center"><sub>cf. / A personal notebook &nbsp;·&nbsp; <a href="https://3901646.xyz">回到日光里 ↗</a></sub></p>

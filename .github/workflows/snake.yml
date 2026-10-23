@@ -21,9 +21,10 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # 配色取自 3901646.xyz：日间为纸色与橄榄绿、印章红；夜间为墨色与金色
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#a84232&color_dots=#ebe8dc,#d9dcc5,#b6baa3,#8d997b,#596343
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#e5cfb3&color_dots=#1c1f19,#34372c,#5d5a45,#8f7d5c,#c5a47a
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

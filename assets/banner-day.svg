@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Charlie Freeman · 日光里的个人手册</title>
+  <desc id="desc">午后斜阳照在纸面上，树影轻轻晃动，名字以无墨凹印压在纸上。</desc>
+  <defs>
+    <clipPath id="card">
+      <rect width="960" height="320" rx="14" />
+    </clipPath>
+
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ebe5d4" />
+      <stop offset="1" stop-color="#dcd5c1" />
+    </linearGradient>
+
+    <!-- 斜射日光：光带由左下伸向右上 -->
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="120" y1="-20" x2="480" y2="340">
+      <stop offset="0" stop-color="#fffbea" stop-opacity="0" />
+      <stop offset="0.34" stop-color="#fffbea" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#fffbea" stop-opacity="0.78" />
+      <stop offset="0.66" stop-color="#fffbea" stop-opacity="0" />
+      <stop offset="1" stop-color="#fffbea" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="beam-soft" gradientUnits="userSpaceOnUse" x1="0" y1="-120" x2="620" y2="500">
+      <stop offset="0" stop-color="#fff8e1" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#fff8e1" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#fff8e1" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0.45" stop-color="#9a8b6d" stop-opacity="0" />
+      <stop offset="1" stop-color="#9a8b6d" stop-opacity="0.16" />
+    </radialGradient>
+
+    <!-- 纸张颗粒 -->
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.42  0 0 0 0 0.37  0 0 0 0 0.28  0.3 0 0 0 -0.1" />
+    </filter>
+
+    <filter id="leaf-near" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="9" />
+    </filter>
+    <filter id="leaf-far" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20" />
+    </filter>
+
+    <!-- 无墨凹印（与 3901646.xyz 首页同一套参数） -->
+    <filter id="pressed-ink" x="-12%" y="-35%" width="124%" height="180%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-0.4" dy="-0.55" result="outer-shift" />
+      <feComposite in="outer-shift" in2="SourceAlpha" operator="out" result="outer-edge" />
+      <feGaussianBlur in="outer-edge" stdDeviation="0.45" result="outer-soft" />
+      <feFlood flood-color="#7c6a52" flood-opacity="0.24" />
+      <feComposite in2="outer-soft" operator="in" result="outer-cushion" />
+
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0.35" result="soft-alpha" />
+      <feOffset in="soft-alpha" dx="0.48" dy="1.4" result="lower-edge" />
+      <feComposite in="lower-edge" in2="SourceAlpha" operator="out" result="rim" />
+      <feFlood flood-color="#fffcf0" flood-opacity="0.94" />
+      <feComposite in2="rim" operator="in" result="lit-rim" />
+
+      <feFlood flood-color="#998669" flood-opacity="0.34" />
+      <feComposite in2="SourceAlpha" operator="in" result="cavity-base" />
+
+      <feOffset in="SourceAlpha" dx="1.35" dy="2.4" result="ao-shift" />
+      <feComposite in="SourceAlpha" in2="ao-shift" operator="out" result="ao-edge" />
+      <feGaussianBlur in="ao-edge" stdDeviation="1.15" result="ao-soft" />
+      <feFlood flood-color="#69563d" flood-opacity="0.42" />
+      <feComposite in2="ao-soft" operator="in" result="ao-clipped" />
+      <feComposite in="ao-clipped" in2="SourceAlpha" operator="in" result="inner-ao" />
+
+      <feOffset in="SourceAlpha" dx="0.62" dy="1.25" result="shifted" />
+      <feComposite in="SourceAlpha" in2="shifted" operator="out" result="inset-edge" />
+      <feGaussianBlur in="inset-edge" stdDeviation="0.36" result="inset-soft" />
+      <feFlood flood-color="#463522" flood-opacity="0.84" />
+      <feComposite in2="inset-soft" operator="in" result="inset-raw" />
+      <feComposite in="inset-raw" in2="SourceAlpha" operator="in" result="inset-shadow" />
+
+      <feMerge>
+        <feMergeNode in="outer-cushion" />
+        <feMergeNode in="lit-rim" />
+        <feMergeNode in="cavity-base" />
+        <feMergeNode in="inner-ao" />
+        <feMergeNode in="inset-shadow" />
+      </feMerge>
+    </filter>
+
+    <g id="foliage" fill="#5d6346">
+      <path d="M1010 -30 C 910 30 820 96 690 176" fill="none" stroke="#5d6346" stroke-width="7" stroke-linecap="round" />
+      <path d="M948 18 C 900 84 872 140 846 226" fill="none" stroke="#5d6346" stroke-width="4" stroke-linecap="round" />
+      <path d="M880 66 C 840 70 800 64 760 52" fill="none" stroke="#5d6346" stroke-width="3" stroke-linecap="round" />
+      <ellipse cx="756" cy="148" rx="46" ry="13" transform="rotate(-35 756 148)" />
+      <ellipse cx="802" cy="112" rx="52" ry="14" transform="rotate(-28 802 112)" />
+      <ellipse cx="852" cy="80" rx="60" ry="16" transform="rotate(-40 852 80)" />
+      <ellipse cx="902" cy="48" rx="55" ry="15" transform="rotate(-22 902 48)" />
+      <ellipse cx="878" cy="134" rx="48" ry="13" transform="rotate(-56 878 134)" />
+      <ellipse cx="818" cy="176" rx="40" ry="11" transform="rotate(-48 818 176)" />
+      <ellipse cx="934" cy="104" rx="62" ry="17" transform="rotate(-35 934 104)" />
+      <ellipse cx="962" cy="168" rx="50" ry="14" transform="rotate(-60 962 168)" />
+      <ellipse cx="716" cy="194" rx="34" ry="10" transform="rotate(-30 716 194)" />
+      <ellipse cx="870" cy="206" rx="44" ry="12" transform="rotate(-66 870 206)" />
+      <ellipse cx="944" cy="18" rx="58" ry="16" transform="rotate(-15 944 18)" />
+      <ellipse cx="780" cy="58" rx="40" ry="11" transform="rotate(-12 780 58)" />
+      <ellipse cx="912" cy="246" rx="36" ry="10" transform="rotate(-70 912 246)" />
+    </g>
+
+    <style>
+      .sway {
+        transform-box: view-box;
+        transform-origin: 980px -20px;
+        animation: sway 11s ease-in-out infinite alternate;
+      }
+      .sway-far {
+        transform-box: view-box;
+        transform-origin: 980px -20px;
+        animation: sway 15s ease-in-out -4s infinite alternate;
+      }
+      .breathe {
+        animation: breathe 13s ease-in-out infinite alternate;
+      }
+      @keyframes sway {
+        from { transform: rotate(0deg) translate(0, 0); }
+        to { transform: rotate(-1.8deg) translate(-9px, 4px); }
+      }
+      @keyframes breathe {
+        from { opacity: 0.82; }
+        to { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sway, .sway-far, .breathe { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="960" height="320" fill="url(#paper)" />
+    <rect class="breathe" width="960" height="320" fill="url(#beam-soft)" />
+    <rect class="breathe" width="960" height="320" fill="url(#beam)" />
+    <rect width="960" height="320" filter="url(#grain)" />
+
+    <!-- 页眉 -->
+    <text x="44" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#393d33">cf.</text>
+    <text x="916" y="54" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="10" letter-spacing="2.6" fill="#77796b">A PERSONAL NOTEBOOK · 日光里的个人手册</text>
+
+    <!-- 凹印名字 -->
+    <text x="480" y="170" text-anchor="middle" font-family="'Times New Roman', Baskerville, Georgia, serif" font-size="70" letter-spacing="0.8" fill="#cbbda6" filter="url(#pressed-ink)">Charlie Freeman</text>
+    <text x="480" y="216" text-anchor="middle" font-family="'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', STSong, SimSun, serif" font-size="16" letter-spacing="5" fill="#6f7262">让工具顺手，让体验从容。</text>
+
+    <!-- 树影压在文字之上，正片叠底 -->
+    <g style="mix-blend-mode: multiply">
+      <g class="sway-far" opacity="0.12" filter="url(#leaf-far)">
+        <use href="#foliage" transform="translate(-60 30) scale(1.08)" />
+      </g>
+      <g class="sway" opacity="0.3" filter="url(#leaf-near)">
+        <use href="#foliage" />
+      </g>
+    </g>
+
+    <!-- 页脚 -->
+    <line x1="44" y1="268" x2="916" y2="268" stroke="#cdc6b1" stroke-width="0.8" />
+    <text x="44" y="292" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="10" letter-spacing="1.8" fill="#77796b">DESIGN AS A DAILY PRACTICE · 关于设计的日常练习</text>
+    <text x="916" y="293" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#596343">3901646.xyz &#x2197;&#xFE0E;</text>
+
+    <rect width="960" height="320" fill="url(#vignette)" />
+  </g>
+  <rect x="0.5" y="0.5" width="959" height="319" rx="13.5" fill="none" stroke="#d6cfbb" />
+</svg>

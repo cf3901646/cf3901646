@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Charlie Freeman · 日光里的个人手册（夜间）</title>
+  <desc id="desc">入夜后的同一张纸：墨色纸面上是一幅星图，名字以烫金压印。</desc>
+  <defs>
+    <clipPath id="card">
+      <rect width="960" height="320" rx="14" />
+    </clipPath>
+
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171914" />
+      <stop offset="1" stop-color="#0f110d" />
+    </linearGradient>
+
+    <!-- 月光：与日间版同一角度的斜光，亮度压到很低 -->
+    <linearGradient id="moon" gradientUnits="userSpaceOnUse" x1="120" y1="-20" x2="480" y2="340">
+      <stop offset="0.3" stop-color="#e2dfd1" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#e2dfd1" stop-opacity="0.05" />
+      <stop offset="0.7" stop-color="#e2dfd1" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0.5" stop-color="#000" stop-opacity="0" />
+      <stop offset="1" stop-color="#000" stop-opacity="0.35" />
+    </radialGradient>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="11" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.89  0 0 0 0 0.86  0 0 0 0 0.78  0.12 0 0 0 -0.04" />
+    </filter>
+
+    <!-- 烫金：竖向金箔渐变 + 压入纸面的暗边 -->
+    <linearGradient id="foil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead6b4" />
+      <stop offset="0.55" stop-color="#c5a47a" />
+      <stop offset="1" stop-color="#97794f" />
+    </linearGradient>
+    <filter id="foil-press" x="-10%" y="-30%" width="120%" height="170%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="-0.8" result="up" />
+      <feComposite in="up" in2="SourceAlpha" operator="out" result="top-edge" />
+      <feFlood flood-color="#000" flood-opacity="0.55" />
+      <feComposite in2="top-edge" operator="in" result="top-shadow" />
+      <feOffset in="SourceAlpha" dx="0" dy="1" result="down" />
+      <feComposite in="down" in2="SourceAlpha" operator="out" result="low-edge" />
+      <feFlood flood-color="#e5cfb3" flood-opacity="0.18" />
+      <feComposite in2="low-edge" operator="in" result="low-rim" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="top-shadow" />
+        <feMergeNode in="low-rim" />
+      </feMerge>
+    </filter>
+
+    <filter id="halo" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+
+    <style>
+      .tw1 { animation: tw 4.8s ease-in-out infinite alternate; }
+      .tw2 { animation: tw 6.2s ease-in-out -2s infinite alternate; }
+      .tw3 { animation: tw 7.4s ease-in-out -5s infinite alternate; }
+      @keyframes tw {
+        from { opacity: 0.35; }
+        to { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .tw1, .tw2, .tw3 { animation: none; }
+      }
+      .label {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-style: italic;
+        font-size: 9.5px;
+        letter-spacing: 0.6px;
+        fill: #8f7d5c;
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="960" height="320" fill="url(#paper)" />
+    <rect width="960" height="320" fill="url(#moon)" />
+    <rect width="960" height="320" filter="url(#grain)" />
+
+    <!-- 星图坐标线：赤纬弧与经线，极细 -->
+    <g fill="none" stroke="#34372c" stroke-width="0.7">
+      <path d="M-40 300 Q 480 120 1000 300" />
+      <path d="M-40 360 Q 480 180 1000 360" stroke-dasharray="2 5" />
+      <path d="M640 -10 Q 700 160 660 330" stroke-dasharray="2 5" />
+    </g>
+
+    <!-- 背景散星 -->
+    <g fill="#e2dfd1">
+      <circle cx="62" cy="96" r="0.9" opacity="0.5" />
+      <circle cx="118" cy="40" r="0.7" opacity="0.4" />
+      <circle cx="164" cy="132" r="1.1" opacity="0.55" />
+      <circle cx="212" cy="74" r="0.8" opacity="0.35" />
+      <circle cx="252" cy="248" r="0.9" opacity="0.4" />
+      <circle cx="306" cy="34" r="1" opacity="0.5" />
+      <circle cx="338" cy="98" r="0.6" opacity="0.3" />
+      <circle cx="402" cy="62" r="0.8" opacity="0.4" />
+      <circle cx="446" cy="252" r="0.7" opacity="0.35" />
+      <circle cx="520" cy="40" r="0.9" opacity="0.45" />
+      <circle cx="566" cy="88" r="0.6" opacity="0.3" />
+      <circle cx="612" cy="244" r="1" opacity="0.4" />
+      <circle cx="650" cy="30" r="0.7" opacity="0.4" />
+      <circle cx="700" cy="230" r="0.8" opacity="0.35" />
+      <circle cx="724" cy="40" r="0.6" opacity="0.3" />
+      <circle cx="930" cy="212" r="0.9" opacity="0.45" />
+      <circle cx="948" cy="62" r="0.7" opacity="0.35" />
+      <circle cx="804" cy="232" r="0.8" opacity="0.4" />
+      <circle cx="560" cy="250" r="0.6" opacity="0.3" />
+      <circle cx="36" cy="200" r="0.8" opacity="0.4" />
+      <circle cx="380" cy="244" r="0.6" opacity="0.3" />
+      <circle cx="270" cy="150" r="0.6" opacity="0.25" />
+      <circle cx="690" cy="150" r="0.6" opacity="0.25" />
+    </g>
+
+    <!-- 右上星座：与日间版树影同一位置 -->
+    <g fill="none" stroke="#c5a47a" stroke-width="0.6" stroke-opacity="0.38">
+      <path d="M752 104 L794 74 L848 92 L884 56 L916 116 L852 142 L794 74" />
+      <path d="M848 92 L852 142" />
+    </g>
+    <g fill="#e5cfb3">
+      <circle cx="794" cy="74" r="5" opacity="0.18" filter="url(#halo)" />
+      <circle cx="884" cy="56" r="5" opacity="0.18" filter="url(#halo)" />
+      <circle class="tw1" cx="752" cy="104" r="1.6" />
+      <circle cx="794" cy="74" r="2.3" />
+      <circle class="tw2" cx="848" cy="92" r="1.5" />
+      <circle cx="884" cy="56" r="2.1" />
+      <circle class="tw3" cx="916" cy="116" r="1.7" />
+      <circle cx="852" cy="142" r="1.4" />
+    </g>
+    <text class="label" x="802" y="66">ambient</text>
+    <text class="label" x="892" y="50">bossa nova</text>
+    <text class="label" x="924" y="120">lo-fi</text>
+    <text class="label" x="738" y="122" text-anchor="end">piano</text>
+
+    <!-- 左下小星座 -->
+    <g fill="none" stroke="#c5a47a" stroke-width="0.6" stroke-opacity="0.3">
+      <path d="M92 236 L134 206 L182 232 L214 204" />
+    </g>
+    <g fill="#e5cfb3">
+      <circle class="tw2" cx="92" cy="236" r="1.4" />
+      <circle cx="134" cy="206" r="1.9" />
+      <circle class="tw3" cx="182" cy="232" r="1.3" />
+      <circle class="tw1" cx="214" cy="204" r="1.6" />
+    </g>
+    <text class="label" x="142" y="198">techno</text>
+    <text class="label" x="222" y="200">dub</text>
+
+    <!-- 页眉 -->
+    <text x="44" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#e2dfd1">cf.</text>
+    <text x="916" y="30" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="10" letter-spacing="2.6" fill="#989b8b">A PERSONAL NOTEBOOK · 日光里的个人手册</text>
+
+    <!-- 烫金名字 -->
+    <text x="480" y="170" text-anchor="middle" font-family="'Times New Roman', Baskerville, Georgia, serif" font-size="70" letter-spacing="0.8" fill="url(#foil)" filter="url(#foil-press)">Charlie Freeman</text>
+    <text x="480" y="216" text-anchor="middle" font-family="'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', STSong, SimSun, serif" font-size="16" letter-spacing="5" fill="#989b8b">让工具顺手，让体验从容。</text>
+
+    <!-- 页脚 -->
+    <line x1="44" y1="268" x2="916" y2="268" stroke="#34372c" stroke-width="0.8" />
+    <text x="44" y="292" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="10" letter-spacing="1.8" fill="#989b8b">DESIGN AS A DAILY PRACTICE · 关于设计的日常练习</text>
+    <text x="916" y="293" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#c5a47a">3901646.xyz &#x2197;&#xFE0E;</text>
+
+    <rect width="960" height="320" fill="url(#vignette)" />
+  </g>
+  <rect x="0.5" y="0.5" width="959" height="319" rx="13.5" fill="none" stroke="#34372c" />
+</svg>
