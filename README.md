@@ -39,7 +39,7 @@
     <td><a href="https://restore.3901646.xyz">网页版 ↗</a><br /><a href="https://github.com/cf3901646/AITextRestorer">桌面版</a></td>
   </tr>
   <tr>
-    <td><b>车规标尺</b><br /><sub>Car Dimension Filter · 买车与停车</sub></td>
+    <td><b>一车之地</b><br /><sub>Footprint · 买车与停车</sub></td>
     <td>收录 1693 款车系、12550 款配置。按尺寸筛车，检查商场地库车位的开门余量和机械车位能否进入，计算轴距与车长之比。</td>
     <td><a href="https://cf3901646.github.io/car-dimension-filter/">打开 ↗</a><br /><a href="https://github.com/cf3901646/car-dimension-filter">源码</a></td>
   </tr>
